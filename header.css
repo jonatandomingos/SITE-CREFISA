@@ -1,0 +1,282 @@
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #44bfe5;
+}
+
+.crefisa-dinheiro{
+    display: flex;
+}
+.texto-crefisa img{
+    width: 700px;
+}
+
+.formulario{
+    display: flex;
+    background-color: var(--white);
+    width: 100%;
+    
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px 10px;
+
+}
+
+.forms h2{
+    font-size: 28px;
+    color: #23b9e2;
+    font-weight: 600;
+    padding-bottom: 20px;
+    line-height: 1.2;
+}
+.forms input{
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgb(230, 219, 219);
+    /* outline: none; */
+    font-size: 18px;
+    padding-left: 10px;
+
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.forms button{
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+
+    margin-left: 20px;
+    width: 100%;
+
+    cursor: pointer;
+    background-color: #ffc107;
+    font-size: 25px;
+    color: var(--white);
+
+    transition: all .2s ease-out;
+
+}
+.forms button:hover{
+    background-color: #6b571a;
+    color: var(--dark);
+
+}
+
+.vantagens{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    padding: 40px;
+    background-color: var(--info);
+}
+.vantagens h2{
+    font-size: 30px;
+    color: yellow;
+    font-weight: 600;
+}
+.itens-vantagens{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* dinheiro */
+.dinheiro{
+    display: flex;
+    flex-direction: column;
+
+}
+.dinheiro p{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+/* calendario */
+.calendario{
+    display: flex;
+    flex-direction: column;
+}
+.calendario p{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+/* contrataçao */
+
+.contrataçao{
+    display: flex;
+    flex-direction: column;
+}
+.contrataçao p{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+/* emprestimo */
+
+.emprestimo{
+    background-color: white;
+}
+
+.seguro{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.seguro h2{
+    font-weight: 400;
+
+}
+.seguro p{
+    font-weight: 300;
+    color: #212529;
+}
+
+
+/*  */
+
+.restriçao-emprestimo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+
+    row-gap: 20px;
+    
+}
+.restriçao-emprestimo h2{
+    
+    font-weight: 400;
+}
+.restriçao-emprestimo p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #212529;
+}
+.restriçao-emprestimo img{
+    align-self: flex-end;
+    margin-top: -150px;
+}
+/* pessoas */
+
+.pessoas{
+    display: flex;
+    flex-direction: column;
+    background-color: #44bfe5;
+}
+.tiulo-todos{
+    display: flex;
+    padding: 60px;
+}
+.tiulo-todos h2{
+    font-size: 30px;
+    color: var(--white);
+}
+
+.img-pessoas{
+    display: flex;
+    padding: 60px;
+    justify-content: space-around;
+}
+.tipos{
+    display: flex;
+    /* padding-left: 60px; */
+    justify-content: space-around;
+}
+.tipos h2{
+    color: var(--white);
+}
+
+/* VIDEOS */
+.videos{
+    
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: .1px solid rgb(146, 139, 139);
+}
+.videos button{
+    margin-top: 40px;
+    height: 50px;
+    width: 250px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.videos span{
+    font-size: 8px;
+    padding-left: 60px;
+    padding-top: 40px;
+    color: #23b9e2;
+    font-weight: 800;
+
+}
+
+.videos .aviso{
+    height: 30px;
+    width: 200px;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+/* ENDEREÇO */
+
+.endereço{
+    display: flex;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    /* padding: 60px; */
+    justify-content: space-around;
+    background-color: white;
+}
+.creditos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.creditos span{
+    font-size: 14px;
+    color: #23b9e2;
+    font-weight: 800;
+}
+.creditos p{
+    font-size: 12px;
+    font-weight: 200;
+}
+/* ATENDIMENTO */
+.atendimento{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.atendimento p{
+    font-size: 12px;
+    font-weight: 200;
+}
+.atendimento p a{
+    color: blue;
+    font-weight: 400;
+    text-decoration: none;
+}
